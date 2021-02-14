@@ -1,15 +1,6 @@
-const variavelComNomeGrande = 2;
-console.log('numero: ' + variavelComNomeGrande);
+const variavelNumerica = '2';
 
-if (
-    variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-    && variavelComNomeGrande == 2
-) {
-    console.log('numero é igual 2');
+if (variavelNumerica === 2 && variavelNumerica === 2) {
+    console.info('data');
+    console.info(`data: ${variavelNumerica}`);
 }
