@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "prettier": "npx prettier --write --ignore-unknown ."
+        "prettier": "npx @btmills/prettier --write --ignore-unknown ."
     },
     "husky": {
         "hooks": {
