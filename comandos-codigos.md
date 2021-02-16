@@ -2,11 +2,15 @@
 
 > Os trechos de código estão atualizados nos arquivos do template, disponíveis em: https://github.com/FabricaDeSinapse/fabrica-sinapse-nodejs-template
 
+
+
 Inicie o projeto Node, gerando o `package.json`, digitando no terminal:
 
 - ```bash
   npm init -y
   ```
+
+
 
 Criação do `package-lock.json`:
 
@@ -14,11 +18,15 @@ Criação do `package-lock.json`:
   npm i
   ```
 
+
+
 Instale o `prettier` no projeto:
 
 - ```bash
   npm i -D prettier
   ```
+
+
 
 Arquivo `settings.json`:
 
@@ -34,6 +42,8 @@ Arquivo `settings.json`:
       }
   }
   ```
+
+
 
 Arquivo `.gitattributes`:
 
@@ -86,9 +96,13 @@ Arquivo `.gitattributes`:
   *.war             binary
   ```
 
+
+
 Arquivo `.gitignore`:
 
 - https://www.toptal.com/developers/gitignore/api/jetbrains,visualstudiocode,node
+
+
 
 Arquivo `.prettierrc.json`:
 
@@ -103,6 +117,8 @@ Arquivo `.prettierrc.json`:
   }
   ```
 
+
+
 Fork `@btmills/prettier`:
 
   - ​	https://www.npmjs.com/package/@btmills/prettier
@@ -113,18 +129,24 @@ Instalar o fork `@btmills/prettier`:
   npm i -D prettier@npm:@btmills/prettier
   ```
 
+
+
 Aplicar o `prettier` no projeto inteiro:
 
 - ```bash
    npx prettier --write --ignore-unknown .
    ```
 
-- Mais informações sobre a CLI do `prettier`, acesse: https://prettier.io/docs/en/cli.html
+   - Mais informações sobre a CLI do `prettier`, acesse: https://prettier.io/docs/en/cli.html
+
+
 
 > É bem importante ter em mente que o comando `npx` só funciona caso o computador tenha conexão com a internet. Caso queira executar os comandos offline, é necessário instalar as dependências de maneira global, usando o comando:
 > ```bash
 > npm i -g prettier
 > ```
+
+
 
 Conteúdo do arquivo `.prettierignore`:
 
@@ -136,6 +158,7 @@ Conteúdo do arquivo `.prettierignore`:
   ```
 
 
+
 Declaração do script `npm run prettier` no `package.json`:
 
 - ```json
@@ -144,9 +167,12 @@ Declaração do script `npm run prettier` no `package.json`:
   },
   ```
 
-- ESLint
-  
-  - https://eslint.org/
+
+
+
+ESLint
+
+- https://eslint.org/
 
 Instale o ESLint com o comando:
 
@@ -161,7 +187,9 @@ Inicialize o ESLint através do comando:
     ```
 
 
+
 Conteúdo do arquivo `.eslintrc.js`:
+
 - ```js
    module.exports = {
        env: {
@@ -202,6 +230,8 @@ Conteúdo do arquivo `.eslintrc.js`:
   };
   ```
 
+
+
 Rodar o ESLint:
 
 - ```bash
@@ -209,7 +239,6 @@ Rodar o ESLint:
     ```
 
 
-## Automatizando o processo no commit
 
 Instalar o Husky 4:
 
@@ -218,17 +247,22 @@ Instalar o Husky 4:
   ```
 
 
+
 Instalar o Lint-Staged:
 
 - ```bash
   npm i -D lint-staged
   ```
 
+
+
 Instalar o Pretty-Quick:
 
 - ```bash
   npm i -D pretty-quick
   ```
+
+
 
 Husky e Lint-Staged no arquivo `package.json`:
 
@@ -247,14 +281,17 @@ Husky e Lint-Staged no arquivo `package.json`:
   ```
 
 
-4. Conteúdo do arquivo `.eslintignore`:
 
-   - ```
-     [Bb]uild*
-     [Dd]ist*
-     [Bb]in*
-     package-lock.json
-     ```
+Conteúdo do arquivo `.eslintignore`:
+
+- ```
+  [Bb]uild*
+  [Dd]ist*
+  [Bb]in*
+  package-lock.json
+  ```
+
+
 
 Comandos Git
 
