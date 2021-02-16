@@ -261,6 +261,6 @@ Comandos Git
 - ```bash
   git status
   git add .
-git commit -m "husky-lint"
+  git commit -m "husky-lint"
   ```
-  
+
