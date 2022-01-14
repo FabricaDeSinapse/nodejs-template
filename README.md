@@ -28,7 +28,7 @@ Você pode criar um repositório seu utilizando esse template de projeto clicand
 
 ### 2ª opção
 
-Também e possível acessar diretamente o link https://github.com/FabricaDeSinapse/nodejs-template/generate.
+Também e possível acessar diretamente o link [https://github.com/FabricaDeSinapse/nodejs-template/generate](https://github.com/FabricaDeSinapse/nodejs-template/generate).
 
 ## Aplicando esse template em um projeto existente
 
