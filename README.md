@@ -1,6 +1,36 @@
-# Configuração ambiente NodeJS
+# NodeJS - Template de projeto
+
+Esse repositório é um template extremamente completo para um projeto de NodeJS com JavaScript, incluindo as seguintes ferramentas:
+
+- **Prettier**
+  - Formatação de código com **Prettier**, garantindo padrão de código
+  - Arquivo de configuração do **Prettier** bem completo
+- **ESLint**
+  - Formatação de código com **ESLint**, garantindo qualidade no código
+  - Arquivo de configuração do **ESLint** bem completo
+- **Visual Studio Code**
+  - Suporte e configuração total ao VSCode
+- **WebStorm**
+  - Suporte e configuração total para o WebStorm ou IDEs da Jetbrains num geral
+- **Husky, Lint-Staged e Pretty-Quick**
+  - Garantindo que todas as validações são feitas antes de entrar no GitHub (funciona com GitLab, BitBucket, ou qualquer sistema Git que você usa)
+- **Git Ignore**
+  - Arquivo `.gitignore` bem completo, considerando **VSCode**, **Webstorm** (IDEs da JetBrains num geral), **NodeJS**, com uma modificação para que aceite os arquivos de configuração de IDEs específicas
+- **Correção de final de linha dos arquivos**
+  - Geralmente muitas equipes possuem problema com devs que usam Linux, Mac e Windows, pelos sistemas tratarem diferente os finais de linha de arquivo.
+  - Isso está corrigido nesse template, forçando os finais de linha de arquivos sempre como `\n`, padrão utilizado pelos sistemas baseados em Unix (Linux e Mac), sem afetar nada a utilização/modificação dos arquivos por quem usa Windows
+
+# Utilização do template
+
+Você pode criar um repositório seu utilizando esse template de projeto clicando no link acima `Use this template`.
+
+## Aplicando esse template em um projeto existente
+
+Caso você queira aplicar as mesmas coisas que estão disponíveis nesse template, mas em um projeto seu que já existe, você pode seguir os passos nos capítulos a seguir.
 
 ## Criação do projeto
+
+>  Caso já tenha o projeto criado, pule este passo.
 
 1. Crie uma nova pasta com o nome do projeto;
 
