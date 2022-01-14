@@ -22,7 +22,13 @@ Esse repositório é um template extremamente completo para um projeto de NodeJS
 
 # Utilização do template
 
+### 1ª opção
+
 Você pode criar um repositório seu utilizando esse template de projeto clicando no link acima `Use this template`.
+
+### 2ª opção
+
+Também e possível acessar diretamente o link https://github.com/FabricaDeSinapse/nodejs-template/generate.
 
 ## Aplicando esse template em um projeto existente
 
